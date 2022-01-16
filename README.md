@@ -5,7 +5,7 @@
 
 ## General Info
 1. The task is implemented using GO as programming language and [Gorilla/mux](https://github.com/gorilla/mux) as a webframework.
-2. I used [VsCode](https://code.visualstudio.com/) as IDE.
+2. I used [vscode](https://code.visualstudio.com/) as IDE.
 
 
 
@@ -37,7 +37,7 @@ There are three end-points available in this project, one for the main POST requ
 | Method        | Endpoint                                        | Body            |
 | ------------- |:-----------------------------------------------:| --------------- |
 | GET           | localhost:8080/api/v1/stores                    | no body         |
-| POST          | ocalhost:8080/api/v1/stores/?country=DE&max=10  | Object above    |
+| POST          | localhost:8080/api/v1/stores/?country=DE&max=10 | Object above    |
 | GET           | localhost:8080/api/v1/stores/?country=DE&max=10 | country, max    |
 
 ## TODO

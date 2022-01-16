@@ -2,11 +2,11 @@ package handler
 
 import (
 	"encoding/json"
-	"io/ioutil"
-	"net/http"
 	"github.com/gorilla/mux"
 	"github.com/mohamedelkashif/store-location-service/db"
 	"github.com/mohamedelkashif/store-location-service/model"
+	"io/ioutil"
+	"net/http"
 )
 
 func GetStores(w http.ResponseWriter, _ *http.Request) {
